@@ -1,3 +1,36 @@
+/*Global Settings*/
+
 body {
-  
+  font-family: sans-serif;
+}
+
+/*General TS Settings*/
+
+.tombstone-box {
+  border: 1px solid slategrey !important;
+}
+
+/*TS Section Settings*/
+.image-wrapper {
+
+}
+
+.logo {
+
+}
+
+.type {
+
+}
+
+.value-eur {
+
+}
+
+.role {
+
+}
+
+.date {
+
 }
