@@ -31,7 +31,11 @@ body {
 }
 
 .type {
-
+  color: #ffffff;
+  background-color: #60b066;
+  font-size: 1.2rem;
+  margin: 0 1rem 0 0;
+  padding: 0.4rem 0 0.4rem 1rem;
 }
 
 .value-eur {
