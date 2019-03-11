@@ -77,15 +77,29 @@ body {
 /* Media queries */
 
 @media screen and (max-width: 1169px) and (min-width: 992px) {
-
+  .role {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-
+  .role {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+  }
 }
+
 @media screen and (max-width: 767px) and (min-width: 554px) {
-
+  .role {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+  }
 }
-@media screen and (max-width: 543px) {
 
+@media screen and (max-width: 543px) {
+  .role {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+  }
 }
