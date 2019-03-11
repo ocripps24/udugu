@@ -1,0 +1,33 @@
+/* Table press custom sorting code */
+
+/* "columnDefs": [ { "type": "date-eu", "targets": [ 0 ] } ] */
+
+/* Table press custom styling */
+
+.tablepress-id-1 {
+	width: auto;
+	margin: 0 auto 1em;
+}
+
+.tablepress thead th,
+.tablepress tfoot th {
+	background-color: #549c4a;
+	color: #ffffff;
+	text-align: center;
+}
+
+.tablepress-id-1 .column-1 {
+	width: 125px;
+}
+
+.tablepress-id-1 img {
+	max-height: 50px;
+}
+
+.tablepress tbody td {
+	vertical-align: middle;
+}
+
+caption a {
+	color: white;
+}
