@@ -29,7 +29,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   align-items: center;
-  margin: 10px 0 10px 0;
+  margin: 10px 10px 10px 10px;
 }
 
 .logo {
