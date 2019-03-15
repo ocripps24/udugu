@@ -1,4 +1,5 @@
 footer {
+
   position: relative;
 	bottom: 0;
 }
@@ -25,10 +26,42 @@ footer {
   padding-bottom: 25px;
 }
 
+/* The company logo */
+
+.footer-logo {
+	max-height: 250px;
+	width: auto;
+	padding:5px 50px 10px 50px;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Footer Center */
 
 .footer-distributed .footer-center{
 	width: 25%;
+}
+
+.footer-distributed .footer-center h2 {
+	color: #ffffff;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+
+.footer-distributed .footer-links a{
+	display: block;
+	color:  #92999f;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: normal;;
+}
+
+.footer-distributed .footer-links a:hover{
+	display: block;
+	color:  #ffffff;
+	padding: 5px 0;
+	text-decoration: underline;
+	font-weight: normal;;
 }
 
 /* Footer Right */
@@ -37,7 +70,39 @@ footer {
 	width: 25%;
 }
 
-/* Lower footer */
+.footer-distributed .footer-right h2 {
+	color: #ffffff;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+
+.footer-right p {
+	color:  #92999f;
+	font-size: 0.8rem;
+	font-weight: normal;
+
+}
+
+.footer-right h3 {
+	color: #ffffff;
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.footer-right a {
+	color: #92999f;
+	font-size: 0.8rem;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
+.footer-right a:hover {
+	color: #ffffff;
+	font-size: 0.7rem;
+	font-weight: normal;
+	text-decoration: underline;
+}
 
 .footer-full {
 	width: 100%;
@@ -58,4 +123,31 @@ footer {
 .footer-full .footer-rhalf {
 	width: 49%;
 	text-align: right;
+}
+
+.footer-lhalf p {
+	color: grey;
+	font-weight: normal;
+	font-size: 0.8rem;
+	padding: 15px 0 15px 0;
+}
+
+.footer-rhalf a {
+	color: grey;
+	font-size: 0.8rem;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 15px 0 15px 10px;
+}
+
+.footer-rhalf a:hover {
+	color: grey;
+	font-size: 0.8rem;
+	font-weight: normal;
+	text-decoration: underline;
+	padding: 10px 0 10px 0;
+}
+
+#footer-tel-no {
+  padding-top: 10px;
 }
