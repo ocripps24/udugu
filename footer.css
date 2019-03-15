@@ -17,3 +17,45 @@ footer {
 	display: inline-block;
 	vertical-align: top;
 }
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+  padding-bottom: 25px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 25%;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 25%;
+}
+
+/* Lower footer */
+
+.footer-full {
+	width: 100%;
+	padding: 10px;
+	background-color: black;
+	display: inline-block;
+}
+
+.footer-full .footer-lhalf,
+.footer-full .footer-rhalf {
+	display: inline-block;
+}
+
+.footer-full .footer-lhalf {
+	width: 49%;
+}
+
+.footer-full .footer-rhalf {
+	width: 49%;
+	text-align: right;
+}
