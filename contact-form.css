@@ -1,3 +1,5 @@
+/* Contact Form 7 Styles */
+
 .wpcf7 {
   color: #60b066;
 }
@@ -5,6 +7,9 @@
 .wpcf7-form {
   width: 80%;
   margin: auto;
+}
+
+.two-column {
 }
 
 .form-padding {
@@ -32,4 +37,48 @@
 
 #special-margin {
   margin-bottom: 15px;
+}
+
+input[type=email], input[type=tel], input[type=text], select {
+  margin-top: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #60b066;
+}
+
+.label-text {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.wpcf7 input[type="submit"] {
+  width: 125px;
+  border: 0;
+  border-radius: 0;
+  background-color: #60b066;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  float:right;
+}
+
+textarea {
+  margin-top: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  font-size: 18px;
+  color: #60b066 !important;
+  height: 2em;
+  padding: 3px;
+  transition: all 0.5s ease;
+}
+
+textarea:focus {
+    height: 10em;
 }
