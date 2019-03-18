@@ -1,0 +1,35 @@
+.wpcf7 {
+  color: #60b066;
+}
+
+.wpcf7-form {
+  width: 80%;
+  margin: auto;
+}
+
+.form-padding {
+  padding-top: 15px;
+}
+
+.one-column {
+  margin-bottom: 15px;
+}
+
+.two-column .left{
+	width: 48%;
+	float: left;
+    margin-bottom: 15px;
+}
+.two-column .right{
+	width: 48%;
+	float: right;
+    margin-left: 4%;
+    margin-bottom: 15px;
+}
+.two-column p {
+	margin-bottom: 15px;
+}
+
+#special-margin {
+  margin-bottom: 15px;
+}
