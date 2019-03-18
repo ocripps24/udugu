@@ -1,19 +1,32 @@
+<div class="two-column">
+<div class="left">
+
 <label class="label-text"> First Name
     [text* first-name] </label>
 
 <label class="label-text"> Email
     [email* email] </label>
+</div>
+
+<div class="right">
 
 <label class="label-text"> Last Name
     [text* last-name] </label>
 
 <label class="label-text"> Phone Number (Optional)
-    [tel tel-656] </label>
+    [tel* tel-656] </label>
+</div>
+</div>
+
+<div class="one-column">
 
 <label class="label-text"> Subject
-    [text* your-subject] </label>
+    [text your-subject] </label>
+</div>
 
+<div class="one-column">
 <label class="label-text" rows="1" cols="10"> Message
-    [textarea* message] </label>
+    [textarea message] </label>
+</div>
 
 [submit "Submit"]
