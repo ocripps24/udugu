@@ -1,0 +1,39 @@
+.stacked-bar-graph {
+  width: 80%;
+  height: 38px;
+ // background: #eee;
+  color:#414042;
+  margin: 10px auto;
+
+  span {
+    display: inline-block;
+    height:100%;
+    box-sizing: border-box;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    padding: 10px;
+
+  }
+
+  .bar-1 {
+    border-left: 1px solid black;
+  }
+
+  .bar-2 {
+    background-color: #60b066;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .bar-3 {
+    border-right: 1px solid black;
+    text-align: right;
+  }
+
+  .bar-4 {
+    text-align: left;
+  }
+
+}
