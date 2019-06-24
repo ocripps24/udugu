@@ -1,4 +1,6 @@
-# Udugu 
+# Udugu Website Snippets
+
+[Visit Udugu](http://www.udugufs.com/)
 
 This repository stores the hand coded elements of the new Udugu site.
 
