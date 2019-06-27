@@ -5,6 +5,8 @@
 
 .breadcrumb {
   background: #549c4a;
+  height: 30px;
+  padding-top: 10px;
 }
 
 .breadcrumb li {
@@ -13,4 +15,11 @@
 
 .breadcrumb a {
   color: #fff;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  background: #fff;
+  color: #549c4a;
+  padding: 15px 10px;
 }
