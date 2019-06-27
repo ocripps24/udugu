@@ -36,3 +36,9 @@
   padding-right: 10px;
   color: #fff;
 }
+
+.breadcrumb a:active {
+  background: #fff;
+  color: #549c4a;
+  padding: 15px 10px;
+}
