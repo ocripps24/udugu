@@ -15,3 +15,4 @@ Some elements also make use of plugins, which do the heavy lifting but still req
 ## Screenshots
 
 ![Home](https://imgur.com/BWZfNay.jpg)
+![Tombstones](https://imgur.com/uQGmBxs.jpg)
