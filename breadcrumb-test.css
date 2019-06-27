@@ -11,6 +11,7 @@
 
 .breadcrumb li {
   display: inline;
+  padding-left: 10px;
 }
 
 .breadcrumb a {
@@ -22,4 +23,16 @@
   background: #fff;
   color: #549c4a;
   padding: 15px 10px;
+}
+
+.breadcrumb li.location::after {
+  content: " >";
+  padding-left: 10px;
+  color: #fff;
+}
+
+.breadcrumb li.attribute+li.attribute::before {
+  content: " /";
+  padding-right: 10px;
+  color: #fff;
 }
